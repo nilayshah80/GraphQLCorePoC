@@ -1,0 +1,16 @@
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/bin/Debug/netcoreapp2.2/GraphQLDotNetCore.deps.json
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/bin/Debug/netcoreapp2.2/GraphQLDotNetCore.runtimeconfig.json
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/bin/Debug/netcoreapp2.2/GraphQLDotNetCore.runtimeconfig.dev.json
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/bin/Debug/netcoreapp2.2/GraphQLDotNetCore.dll
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/bin/Debug/netcoreapp2.2/GraphQLDotNetCore.pdb
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/obj/Debug/netcoreapp2.2/GraphQLDotNetCore.csprojAssemblyReference.cache
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/obj/Debug/netcoreapp2.2/GraphQLDotNetCore.RazorAssemblyInfo.cache
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/obj/Debug/netcoreapp2.2/GraphQLDotNetCore.RazorAssemblyInfo.cs
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/obj/Debug/netcoreapp2.2/GraphQLDotNetCore.AssemblyInfoInputs.cache
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/obj/Debug/netcoreapp2.2/GraphQLDotNetCore.AssemblyInfo.cs
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/obj/Debug/netcoreapp2.2/GraphQLDotNetCore.RazorTargetAssemblyInfo.cache
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/obj/Debug/netcoreapp2.2/GraphQLDotNetCore.dll
+/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/obj/Debug/netcoreapp2.2/GraphQLDotNetCore.pdb
