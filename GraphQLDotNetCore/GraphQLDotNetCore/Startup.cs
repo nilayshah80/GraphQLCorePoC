@@ -1,5 +1,9 @@
-﻿using GraphQLDotNetCore.Contracts;
+﻿using GraphQL;
+using GraphQL.Server;
+using GraphQL.Server.Ui.Playground;
+using GraphQLDotNetCore.Contracts;
 using GraphQLDotNetCore.Entities;
+using GraphQLDotNetCore.GraphQL.GraphQLSchema;
 using GraphQLDotNetCore.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -28,6 +32,12 @@ namespace GraphQLDotNetCore
             services.AddScoped<IOwnerRepository, OwnerRepository>();
             services.AddScoped<IAccountRepository, AccountRepository>();
 
+            services.AddScoped<IDependencyResolver>(s => new FuncDependencyResolver(s.GetRequiredService));
+            services.AddScoped<AppSchema>();
+
+            services.AddGraphQL(o => { o.ExposeExceptions = false; })
+                .AddGraphTypes(ServiceLifetime.Scoped);
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 .AddJsonOptions(options => options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
         }
@@ -46,6 +56,10 @@ namespace GraphQLDotNetCore
             }
 
             app.UseHttpsRedirection();
+
+            app.UseGraphQL<AppSchema>();
+            app.UseGraphQLPlayground(options: new GraphQLPlaygroundOptions());
+
             app.UseMvc();
         }
     }
