@@ -12157,28 +12157,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/nilayshah/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Nilay\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/GraphQLDotNetCore.csproj",
+      "projectUniqueName": "E:\\Project\\GraphQLCorePoC\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj",
       "projectName": "GraphQLDotNetCore",
-      "projectPath": "/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/GraphQLDotNetCore.csproj",
-      "packagesPath": "/Users/nilayshah/.nuget/packages/",
-      "outputPath": "/Users/nilayshah/Projects/GraphQLCorePoC/GraphQLDotNetCore/GraphQLDotNetCore/obj/",
+      "projectPath": "E:\\Project\\GraphQLCorePoC\\GraphQLDotNetCore\\GraphQLDotNetCore\\GraphQLDotNetCore.csproj",
+      "packagesPath": "C:\\Users\\Nilay\\.nuget\\packages\\",
+      "outputPath": "E:\\Project\\GraphQLCorePoC\\GraphQLDotNetCore\\GraphQLDotNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/nilayshah/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Nilay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12222,7 +12224,8 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
