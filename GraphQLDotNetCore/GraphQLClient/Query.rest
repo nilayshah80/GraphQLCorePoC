@@ -1,0 +1,32 @@
+@url = https://127.0.0.1:5003
+
+### GET All Owner 
+GET {{url}}/api/values
+Content-Type: application/json
+
+### GET Owner 
+GET {{url}}/api/values/791716be-7eff-4370-814e-3884d27ae682
+
+Content-Type: application/json
+
+### Post  
+POST {{url}}/api/values
+Content-Type: application/json
+
+{
+    "Name": "My new name",
+    "Address": "My new Address"
+}
+
+### Update
+PUT {{url}}/api/values/29fb9b7d-aed2-4a81-9892-dc3dd92a2e0a
+Content-Type: application/json
+
+{
+    "Name": "My name",
+    "Address": "My Address"
+}
+
+### Delete
+DELETE {{url}}/api/values/29fb9b7d-aed2-4a81-9892-dc3dd92a2e0a
+Content-Type: application/json
