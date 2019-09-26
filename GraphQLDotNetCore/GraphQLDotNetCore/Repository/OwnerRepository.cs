@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using GraphQLDotNetCore.Contracts;
 using GraphQLDotNetCore.Entities;
@@ -15,5 +16,7 @@ namespace GraphQLDotNetCore.Repository
         }
 
         public IEnumerable<Owner> GetAll() => _context.Owners.ToList();
+
+        public Owner GetById(Guid id) => _context.Owners.SingleOrDefault(o => o.Id.Equals(id));
     }
 }
